@@ -1,0 +1,9 @@
+Start()
+Fahren()
+while Fahren():
+  Ausweichen()
+if Abstand < 30:
+  Bremsen()
+  Ende()
+else:
+  Fahren()
