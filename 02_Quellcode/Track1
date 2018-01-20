@@ -1,0 +1,6 @@
+Start()
+if Abstand < 20:
+  Bremsen()
+  Ende()
+else:
+  Fahren()
