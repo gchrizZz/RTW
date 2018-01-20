@@ -1,7 +1,7 @@
 """Hier können wir uns mit dem Quellcode unseres CopterAutos austoben"""
 """ benötigte Funktionen:
 
-Start
+Start (nach start flifla)
 Fahren
 Stoppen
 hochfliegen
@@ -64,15 +64,14 @@ try:
         # Pause zwischen den einzelnen Messungen
         time.sleep(sleeptime)
       if Abstand > 30:
-        
         Fahren()
       elif Abstand < 30:
         Stoppen()
-        Hybrid()
+        FaFli()
         Hochfliegen()
         Vorfliegen()
         Landen()
-        Hybrid()
+        FliFa()
         Fahren()
       else:
         Fahren()
