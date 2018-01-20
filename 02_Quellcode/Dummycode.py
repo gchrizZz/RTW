@@ -1,1 +1,0 @@
-"""Hier können wir uns mit dem Quellcode unseres CopterAutos austoben"""
