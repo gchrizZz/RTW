@@ -3,7 +3,7 @@
 
 Start (nach start flifla)
 Fahren
-Stoppen
+Bremsen
 hochfliegen
 vorfliegen
 Landen
@@ -66,7 +66,7 @@ try:
       if Abstand > 30:
         Fahren()
       elif Abstand < 30:
-        Stoppen()
+        Bremsen()
         FaFli()
         Hochfliegen()
         Vorfliegen()
