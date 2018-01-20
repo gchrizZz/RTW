@@ -1,0 +1,18 @@
+def Start: (nach start flifla)
+def Fahren:
+def Bremsen:
+def Hochfliegen:
+def Vorfliegen:
+def Landen:
+def Zielerkennung/anfliegen:
+def Ende:
+def Stabilisieren:
+def FliFa: (fliegen->fahren)
+def FaFli: (fahren ->fliegen)
+def Ausweichen:
+
+"""Nice to have aber nicht zwingend:"""
+def Datenaustausch:
+def Ausweichen:
+def Notaus:
+
