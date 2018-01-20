@@ -1,0 +1,17 @@
+Start()
+Fahren()
+if Abstand > 30:
+  Fahren()
+elif Abstand < 30:
+  Bremsen()
+  FaFli()
+  Hochfliegen()
+  Vorfliegen()
+  Landen()
+  FliFa()
+  Fahren()
+else:
+  Fahren()
+"""wenn 3m gefahren oder stop Schild erkannt"""
+Bremsen()
+Ende()
