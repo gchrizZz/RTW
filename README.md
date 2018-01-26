@@ -7,3 +7,4 @@ Eine erste Ordnerstruktur wurde angelegt.
 - 02_Quellcode:          Bereich für die Programmierung des Quadrocopters
 - 03_Konstruktion:       Bereich für die CAD-Teile des Quadrocopters 
 - 04_Platinenlayout:     Bereich für Platinenlayouts und Circuits
+- 99_Archiv:             Bereich für Ablage und nicht mer relevante Artefakte
