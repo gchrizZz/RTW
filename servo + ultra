@@ -86,13 +86,14 @@ if __name__ == '__main__':
             #time.sleep(1)
             SetAngle(40)
             SetAngle1(110)
-            #Motor an 10 11
+            #Motor an 10 11 -> Info an Arduino 55
             GPIO.output(10,1)
             GPIO.output(11,1)
             if abstand < 40:
-                #motor aus
+                #motor aus -> Info an Arduino 66
                 GPIO.output(10,0)
                 GPIO.output(11,0)
+                delay(2000)
                 SetAngle(125)
                 SetAngle1(25)
                 pwm.stop()
@@ -107,3 +108,7 @@ if __name__ == '__main__':
 #pwm1.stop()
 GPIO.cleanup()
 
+#Arduino: 
+# wenn 55 von pi dann pin 10 11 digitalWrite(D10 u. D11, HIGH);
+#wenn 66 von pi dann pin 10 11 digitalWrite(D10u.D11, LOW);
+#pinMode(D10 u. D11, OUTPUT)
